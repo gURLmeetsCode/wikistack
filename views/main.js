@@ -14,7 +14,7 @@ module.exports = (pages) => layout(html`
       <!-- PLACEHOLDER LIST OF PAGES -->
       ${pages.map(page => `
           <li>
-            ${page.id}${page.title}${page.content}
+            ${page.id} ${page.title} ${page.content}
           </li>`
       )}
     </ul>
